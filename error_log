@@ -1,0 +1,643 @@
+[15-Dec-2023 04:20:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[22-Dec-2023 06:29:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[29-Dec-2023 06:55:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[06-Jan-2024 07:10:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[21-Jan-2024 05:36:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[29-Jan-2024 06:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[12-Feb-2024 05:56:40 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/dafktec1/public_html/wp-settings.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/dafktec1/public_html/wp-settings.php on line 33
+[14-Feb-2024 04:09:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[21-Feb-2024 01:58:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/dafktec1/public_html/wp-settings.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/dafktec1/public_html/wp-settings.php on line 33
+[21-Feb-2024 04:11:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[21-Feb-2024 23:12:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/dafktec1/public_html/wp-settings.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/dafktec1/public_html/wp-settings.php on line 33
+[29-Feb-2024 04:02:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[07-Mar-2024 05:03:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[19-Mar-2024 13:35:01 UTC] Error de evento de reprogramación de cron para el gancho: wp_privacy_delete_old_export_files. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[23-Mar-2024 09:21:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[01-Apr-2024 22:53:29 UTC] PHP Warning:  Undefined array key "options" in /home/dafktec1/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/widgets/site-logo.php on line 192
+[01-Apr-2024 22:55:54 UTC] Error de evento de reprogramación de cron para el gancho: elementor_1_elementor_pro_updater_cron. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"elementor_1_elementor_pro_updater_cron_interval","args":[],"interval":300}
+[10-Apr-2024 16:45:34 UTC] Error de evento de reprogramación de cron para el gancho: elementor_1_elementor_updater_cron. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[16-Apr-2024 04:07:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[24-Apr-2024 04:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[01-May-2024 04:20:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[16-May-2024 04:58:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[01-Jun-2024 04:25:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[16-Jun-2024 04:29:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(340): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(530): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[26-Jun-2024 18:43:00 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Core\Utils\Promotions\Filtered_Promotions_Manager" not found in /home/dafktec1/public_html/wp-content/plugins/elementor/app/app.php:107
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\App\App->get_init_settings()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/core/base/base-object.php(57): Elementor\Core\Base\Base_Object->ensure_settings()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor-pro/core/app/app.php(35): Elementor\Core\Base\Base_Object->set_settings('menu_url', 'https://dafktec...')
+#3 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): ElementorPro\Core\App\App->set_menu_url('')
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/plugin.php(658): do_action('elementor/init')
+#7 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Plugin->init('')
+#8 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/dafktec1/public_html/wp-settings.php(695): do_action('init')
+#11 /home/dafktec1/public_html/wp-config.php(99): require_once('/home/dafktec1/...')
+#12 /home/dafktec1/public_html/wp-load.php(50): require_once('/home/dafktec1/...')
+#13 /home/dafktec1/public_html/wp-blog-header.php(13): require_once('/home/dafktec1/...')
+#14 /home/dafktec1/public_html/index.php(17): require('/home/dafktec1/...')
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/app/app.php on line 107
+[17-Jul-2024 04:13:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[31-Jul-2024 08:28:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[16-Aug-2024 04:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[30-Aug-2024 09:39:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[15-Sep-2024 04:06:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[29-Sep-2024 05:01:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[07-Oct-2024 04:09:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[14-Oct-2024 06:52:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[30-Oct-2024 04:35:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[06-Nov-2024 06:45:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[14-Nov-2024 05:02:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[21-Nov-2024 07:19:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[29-Nov-2024 06:16:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[07-Dec-2024 04:36:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[15-Dec-2024 04:07:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/dafktec1/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/dafktec1/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/dafktec1/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/dafktec1/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/dafktec1/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/dafktec1/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 {main}
+  thrown in /home/dafktec1/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26

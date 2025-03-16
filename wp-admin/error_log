@@ -1,0 +1,10 @@
+[07-Jul-2023 04:04:20 UTC] PHP Warning:  Attempt to read property "title" on null in /home/hostingy/public_html/wp-includes/class-wp-customize-widgets.php on line 905
+[07-Jul-2023 04:28:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hostingy/public_html/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[07-Jul-2023 04:28:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hostingy/public_html/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[07-Jul-2023 04:28:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hostingy/public_html/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[07-Jul-2023 04:28:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hostingy/public_html/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[07-Jul-2023 04:28:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hostingy/public_html/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[07-Jul-2023 04:28:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hostingy/public_html/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[07-Jul-2023 04:28:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hostingy/public_html/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[07-Jul-2023 04:28:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hostingy/public_html/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[29-Aug-2023 15:41:01 UTC] PHP Warning:  Attempt to read property "title" on null in /home/hostingy/public_html/wp-includes/class-wp-customize-widgets.php on line 905
